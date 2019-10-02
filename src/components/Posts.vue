@@ -1,8 +1,8 @@
 <template>
   <div>
     <div v-for="post in posts" :key="post.id">
-      <strong>{{ post.title }}</strong>
-      <p>{{ post.body }}</p>
+      <p class="msg-title"><strong>{{ post.title }}</strong></p>
+      <p class="msg-body">{{ post.body }}</p>
       <em>By: {{ post.author.name }}</em>
     </div>
   </div>
@@ -27,7 +27,27 @@ export default {
       {
         id: 1,
         title: "Hello, world!",
-        body: "Some awesome body...",
+        body: "I just want to let you know...",
+        author: {
+          id: 1,
+          name: "John Doe",
+          email: "john@example.com"
+        }
+      },
+      {
+        id: 2,
+        title: "Hello, vuex-orm!",
+        body: "That vuex-orm is...",
+        author: {
+          id: 1,
+          name: "John Doe",
+          email: "john@example.com"
+        }
+      },
+      {
+        id: 3,
+        title: "Hello, world!",
+        body: "AWESOME!",
         author: {
           id: 1,
           name: "John Doe",
@@ -39,3 +59,9 @@ export default {
   }
 };
 </script>
+<style>
+.msg-body {color:red; font-size:200%;}
+.msg-title{
+  padding-top:20px; color: green;
+}
+</style>
