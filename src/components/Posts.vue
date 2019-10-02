@@ -27,7 +27,7 @@ export default {
       {
         id: 1,
         title: "Hello, world!",
-        body: "I just want to let you know...",
+        body: "I just wanna let you know...",
         author: {
           id: 1,
           name: "John Doe",
@@ -37,7 +37,7 @@ export default {
       {
         id: 2,
         title: "Hello, vuex-orm!",
-        body: "That vuex-orm is...",
+        body: "...that vuex-orm is...",
         author: {
           id: 1,
           name: "John Doe",
