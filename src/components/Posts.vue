@@ -39,19 +39,19 @@ export default {
         title: "Hello, vuex-orm!",
         body: "...that vuex-orm is...",
         author: {
-          id: 1,
-          name: "John Doe",
-          email: "john@example.com"
+          id: 2,
+          name: "Milan Košir",
+          email: "kosir.milan@gmail.com"
         }
       },
       {
         id: 3,
-        title: "Hello, world!",
+        title: "Hello, awesome!",
         body: "AWESOME!",
         author: {
-          id: 1,
-          name: "John Doe",
-          email: "john@example.com"
+          id: 3,
+          name: "Lidija Košir",
+          email: "kosir.lidija@gmail.com"
         }
       }
     ];
